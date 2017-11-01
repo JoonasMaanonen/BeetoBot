@@ -18,4 +18,8 @@ async def hello():
 async def best():
     await bot.say("https://cdn.discordapp.com/emojis/375014254853619712.png")
 
+@bot.command()
+async def koodit():
+    await bot.say("https://github.com/JoonasMaanonen/BeetoBot")
+
 bot.run("Mzc1MzYxNDExMzI2NTQxODI0.DNuzyg.JFGA_q8vX1fCMN9UsYFWtxmIUQw")
